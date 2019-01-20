@@ -1,0 +1,235 @@
+html, body {
+	font-family: 	sans-serif, 'OpenSans';
+}
+
+.navbar-001, .navbar-001 #first_screen,
+.navbar-001 .item > div {
+	height: 		400px;
+}
+.navbar-001, .navbar-001 #first_screen {
+	background-color: #c4cdd6;	
+}
+.navbar-001 #first_screen, .navbar-001 .container  {
+	display: 		flex;	
+}
+/******************КНОПКА ЗАПУСКА ДЕМОНСТРАЦИИ*/
+.navbar-001 .start_button {
+	margin: 			auto;
+	width: 				249px;
+	height: 			45px;
+	border-radius: 		2px;
+	line-height: 		45px;
+	cursor: 			pointer;
+	background-color: 	#ff891e;
+	transition: 		0.1s;
+}
+.navbar-001 .start_button:hover {
+	background-color: 	#4ec67f;
+	transition: 		0.1s;
+}
+.navbar-001 .start_button p {
+	font-size: 			16px;
+	text-align: 		center;
+	color: 				#fff;
+}
+/*********************************************СЛАЙДЕР*/
+.navbar-001 .carousel-inner .item {
+	background-size: 	cover;
+}
+.navbar-001 #first-slide {
+	background-color: 	#c9d0da;
+	background-image: 	url(../images/slider_1min.jpg);
+}
+.navbar-001 #second-slide {
+	background-color: 	#95bac3;
+	background-image: 	url(../images/slider_2min.jpg);
+}
+.navbar-001 #third-slide {
+	background-color: 	#9ba7b3;
+	background-image: 	url(../images/slider_3min.jpg);
+}
+.navbar-001 #fourth-slide {
+	background-color: 	#f1f3f2;
+	background-image: 	url(../images/slider_4min.jpg);
+}
+.navbar-001 .text_shadow {
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+/***********************************ОПИСАНИЕ В СЛАЙДЕРЕ*/
+.navbar-001 .carousel-caption {
+	position: 			initial;
+	margin: 			133px auto;
+	padding: 			0;
+	color: 				#000;
+}
+.navbar-001 .carousel-caption h2 {
+	font-size: 			25px;
+	line-height: 		30px;
+	margin: 			0;
+}
+.navbar-001 .carousel-caption p {
+	font-size: 			18px;
+	line-height: 		30px;
+	margin: 			10px 0 20px 0;
+}
+.navbar-001 .carousel-caption button {
+	height: 37px;  width: 	128px;
+	border-radius: 		3px;
+	font-size: 			13px;
+}
+.navbar-001 .carousel-caption button.more {
+	background: 		#ff891e;
+	border: 			none;
+	color: 				#fff;
+	transition: 		0.2s;
+}
+.navbar-001 .carousel-caption button.all_shares {
+	background: 		transparent;
+	margin-left: 		22px;
+	border: 			1px solid #000;
+	color: 				#000;
+	transition: 		0.2s;
+}
+.navbar-001 .carousel-caption button.more:hover,
+.navbar-001 .carousel-caption button.all_shares:hover {
+	background: 		#4ec67f;
+	transition: 		0.2s;
+}
+/***********************************НАВИГАЦИЯ В СЛАЙДЕРЕ XS*/
+.navbar-001 .carousel-indicators li.active {
+	background-color: 	#000;
+}
+.navbar-001 .carousel-indicators li {
+	border:				1px solid #000;
+	margin: 			0 8px;
+	padding: 			0;
+}
+/* Medium devices (больше 992px) */
+@media (min-width: 992px) {
+	.navbar-001, .navbar-001 #first_screen,
+	.navbar-001 .item > div {
+		height: 		675px;
+	}
+/***********************************КАРТИНКИ В СЛАЙДЕРЕ*/	
+	.navbar-001 .carousel-inner .item {
+		background-position: 35% 0;
+	}	
+	.navbar-001 #first-slide {
+		background-image: 	url(../images/slider_1.jpg);
+	}
+	.navbar-001 #second-slide {
+		background-image: 	url(../images/slider_2.jpg);
+	}
+	.navbar-001 #third-slide {
+		background-image: 	url(../images/slider_3.jpg);
+	}
+	.navbar-001 #fourth-slide {
+		background-image: 	url(../images/slider_4.jpg);
+	}
+	/***********************************ОПИСАНИЕ В СЛАЙДЕРЕ*/
+	.navbar-001 .carousel-caption {
+		margin: 			230px 0 0 48.7%;
+		text-align: 		left;
+	}
+	.navbar-001 .carousel-caption h2 {
+		font-size: 			35px;
+		line-height: 		42px;
+	}
+	.navbar-001 .carousel-caption p {
+		font-size: 			22px;
+		line-height: 		42px;
+		margin: 			5px 0 8px 0;
+	}
+	.navbar-001 .carousel-caption button {
+		height: 45px;  width: 	155px;
+		border-radius: 		3px;
+		font-size: 			16px;
+	}
+	/***********************************НАВИГАЦИЯ В СЛАЙДЕРЕ*/
+	.navbar-001 .carousel-indicators {
+		width: 		970px;
+		left: 		50%;
+		bottom: 	25px;
+		margin-left: -485px;
+	}
+	.navbar-001 .carousel-indicators li {
+		width: 224px; 	height: 55px;
+		background-color: rgba(0,0,0,0.15);
+		border-radius: 	3px;
+		border: 		none;
+		vertical-align: middle;
+		text-indent: 	0;
+		text-align: 	left;
+	}
+	.navbar-001 .carousel-indicators li:hover {
+		background-color: rgba(78,198,127,0.15);
+	}
+	.navbar-001 .carousel-indicators li.active {
+		background-color: rgba(0,0,0,0.5);
+		border:			1px solid #000;
+	}
+	.navbar-001 .carousel-indicators li img {
+		height: 		45px;
+		border-radius: 	1px;
+		margin:		 	5px;
+		float: 			left;
+	}
+	.navbar-001 .carousel-indicators li p {
+		margin-top: 	10px;
+		margin-left: 	53px;
+		font-size: 		9px;
+		color: 			#fff;
+		text-align: 	left;
+		text-shadow: 	1px 0 1px #000;
+	}
+	/***********************************КНОПКИ ВЛЕВО ВПРАВО В СЛАЙДЕРЕ*/
+	.navbar-001 .carousel-control {
+		height:  85px; width: 77px;
+		top: 		297px;
+		background-color: 	rgba(0,0,0,0.1);
+		background-image: 	none;
+		border-radius: 		2px;
+	}
+	.navbar-001 .carousel-control span {
+		margin-top: 		30px;
+	}
+}
+/* Large devices (больше 1200px) */
+@media (min-width: 1200px) {
+/***********************************КАРТИНКИ В СЛАЙДЕРЕ*/
+
+/***********************************ОПИСАНИЕ В СЛАЙДЕРЕ*/
+	.navbar-001 .carousel-caption {
+		margin: 			244px 0 0 45.7%;
+	}
+	.navbar-001 .carousel-caption h2 {
+		font-size: 			42px;
+		line-height: 		50px;
+	}
+	.navbar-001 .carousel-caption p {
+		font-size: 			26px;
+		line-height: 		50px;
+		margin: 			5px 0 8px 0;
+	}
+	/***********************************НАВИГАЦИЯ В СЛАЙДЕРЕ*/
+	.navbar-001 .carousel-indicators {
+		width: 			1200px;
+		left: 			50%;
+		bottom: 		20px;
+		margin-left: 	-600px;
+	}
+	.navbar-001 .carousel-indicators li {
+		width: 274px; 	height: 67px;
+		margin-right: 	13px;
+	}
+	.navbar-001 .carousel-indicators li img {
+		height: 		55px;
+		border-radius: 	1px;
+		margin:		 	6px;
+	}
+	.navbar-001 .carousel-indicators li p {
+		margin-top: 	10px;
+		margin-left: 	65px;
+		font-size: 		11px;
+	}
+}
