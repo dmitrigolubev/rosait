@@ -1,5 +1,6 @@
 html, body {
 	font-family: 	sans-serif, 'OpenSans';
+	min-width:	500px;
 }
 
 .navbar-001, .navbar-001 #first_screen,
